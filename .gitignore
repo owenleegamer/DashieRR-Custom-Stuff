@@ -1,6 +1,7 @@
 /dist/
 /test-runs/
 /auto-publish.json
+/live-test-location.txt
 *.exe
 *.part
 *.tmp

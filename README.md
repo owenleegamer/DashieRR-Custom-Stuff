@@ -27,6 +27,8 @@ assets are not overwritten or deleted. Credentials come from Git Credential
 Manager and are never stored in this repository or included in the installers.
 
 In the original workspace, enabling `auto-publish.json` also runs the publisher
-after a successful custom package build. Publishing requires network access and
-valid GitHub authorization; local build errors or unverified uploads do not
-produce a public release.
+after a successful custom package build. The local settings file contains no
+credentials and is not committed. Set `DASHIERR_SKIP_AUTO_PUBLISH=1` only for a
+build that should stay local. Publishing requires network access and valid
+GitHub authorization; local build errors or unverified uploads do not produce
+a public release.
