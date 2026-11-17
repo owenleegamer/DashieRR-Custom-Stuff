@@ -26,7 +26,7 @@ UPLOAD='https://uploads.github.com'
 ASSET_PACKAGE='DashieRR-Custom-Package.exe'
 ASSET_SETUP='DashieRR-Custom-Setup.exe'
 SOURCE_FILES=['.gitignore','README.md','OnlineInstaller.cs','InstallerConfig.cs','build_online.py',
-              'publish_release.py','test_online.py','OnlineTests.cs','test_publish.py','LiveDownloadTest.cs','icon.ico']
+              'publish_release.py','test_online.py','OnlineTests.cs','test_publish.py','LiveDownloadTest.cs','NetworkSmoke.cs','icon.ico']
 
 def digest(path):
     h=hashlib.sha256()
