@@ -1,0 +1,7 @@
+/dist/
+/test-runs/
+/auto-publish.json
+*.exe
+*.part
+*.tmp
+__pycache__/
